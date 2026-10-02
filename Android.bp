@@ -161,14 +161,3 @@ android_app_import {
     },
     privileged: true,
 }
-
-android_app_import {
-    name: "MiuiScanner",
-    owner: "xiaomi",
-    apk: "proprietary/product/app/MiuiScanner/MiuiScanner.apk",
-    certificate: "platform",
-    dex_preopt: {
-        enabled: false,
-    },
-    product_specific: true,
-}
